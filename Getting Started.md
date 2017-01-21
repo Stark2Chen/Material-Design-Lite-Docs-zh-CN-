@@ -24,7 +24,7 @@
 
 #### hosted
 
-在你的HTML文档中插入这些<link>和<script>标签，他们包含了Material的图标字体，这些代码将会提供一个27kB大小的压缩包
+在你的HTML文档中插入这些代码，他们包含了Material的图标字体，这些代码将会提供一个27kB大小的压缩包
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
@@ -97,5 +97,5 @@ MDL的文件将会被安装在你的项目中的node_modules文件夹里
 
 就这样了！你已经准备好在你的网站上使用Material Design LIte！
 
-## 使用零部件
+# 使用零部件
 
