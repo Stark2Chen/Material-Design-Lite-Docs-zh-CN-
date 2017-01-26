@@ -99,3 +99,28 @@ MDL的文件将会被安装在你的项目中的node_modules文件夹里
 
 # 使用零部件
 
+你会发现下面几个MDL例子按钮元素：一个带涟漪效果的按钮和一个FAB按钮。只需复制和粘贴在相应的HTML页面中<body>标签内，元素将呈现如下图所示。
+
+涟漪按钮：
+
+    <!-- Accent-colored raised button with ripple -->
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+    Button
+    </button>
+
+FAB:
+
+    <!-- Colored FAB button -->
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+    <i class="material-icons">add</i>
+    </button>
+
+可以通过调节CSS类来调整和配置MDL元素。例如，添加 mdl-js-ripple-effect 使得一个按钮被点击时产生涟漪效果。添加 mdl-button--fab可以使得一个按钮变为FAB风格按钮。
+
+还有诸多其他元素，例如卡片容器，滑块，表格和菜单。将会在组件页面有详细的介绍。
+
+我们还建议你欣赏一下MDL的示例模板，随时查看他们，为你的项目提供参考。
+
+## 原则
+
+
