@@ -20,7 +20,6 @@
 
 想要在你的每一个HTML页面中使用MDL，我们提供文件的hosted在我们对CDN服务器上，你也可以下载并且定制他们，通过npm/bower的方式获取项目的源代码并且安装他们
 
->Include the Material Lite CSS and JavaScript files in each HTML page in your project. We recommend that you use the files hosted on our CDN. You can also customize and download them to host them yourself, build them from our source code or install them in your npm/Bower project.
 
 #### hosted
 
@@ -93,8 +92,6 @@ MDL的文件将会被安装在你的项目中的node_modules文件夹里
 
 颜色方案在MD中极为重要，HOSDED提供的是默认的indigo-pink颜色，同时，我们的CDN主机也提供了一些常见的配色方案。如果你想定义个性的颜色，我们也提供了定制和预览的工具
 
->Color schemes used in Material Design are based on a primary and an accent colors which you may want to personalize. These colors are specified in the CSS file name by following this pattern: material.{primary}-{accent}.min.css (e.g. material.indigo-pink.min.css). Our CDN hosts a number of color combinations based on common Material Design colors. To discover and preview available color combinations use our Customize and Preview tool.
-
 就这样了！你已经准备好在你的网站上使用Material Design LIte！
 
 # 使用零部件
@@ -122,5 +119,45 @@ FAB:
 我们还建议你欣赏一下MDL的示例模板，随时查看他们，为你的项目提供参考。
 
 ## 原则
+
+一般来说，你需要按照一下基本步骤来在html页面中使用MDL组件
+
+1. 从标准的HTML元素上开始，例如按钮或者div标签，这取决于你想要在哪个元素上使用MDL。这将会在页面上建立元素，以便于你进行MDL的修改。
+
+2. 添加一个或多个特定的MDL-CSS类元素，例如 mdl-button 或 mdl-tabs__panel, again depending on the component *求助*。类将会把MDL的效果应用于元素
+
+请检视你的页面以便于在移动设备上更好地显示
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    关于HTML元素和MDL CSS类的注释
+    MDL采用命名空间BEM类，它可以适用于绝大多数的HTML元素来构建适合的逐渐。对于一些组件，你可以给他们应用任何的元素。这些范例将会在每个组件的文档中得到体现，如果您必须使用示例中显示的元素以外的其他元素，我们建议您尝试为您的应用程序找到HTML元素和MDL CSS类的最佳组合。
+
+## 在动态网站上使用MDL
+
+Material Design Lite在页面加载时会自动注册和渲染标记有MDL类的所有元素。但是如果你在动态的网站上创建DOM元素，你需要注册使用新元素upgradeElement的功能。这里是如何可以动态创建相同的凸起按钮与上面部分中所示的涟漪效果：
+
+    <div id="container"/>
+    <script>
+        var button = document.createElement('button');
+        var textNode = document.createTextNode('Click Me!');
+        button.appendChild(textNode);
+        button.className = 'mdl-button mdl-js-button mdl-js-ripple-effect';
+        componentHandler.upgradeElement(button);
+        document.getElementById('container').appendChild(button);
+    </script>
+
+## MDL的职责是什么？
+
+MDL旨在为网站提供基本的，轻量级的采用Material Design的组件和模板。这个项目并不打算提供结构来满足所有可能的UX需求，而只是为你建立一个Material Design风格网站提供一个低门槛的实现。即使在材料设计本身，提供每一个组件的无缝组合方式都是不可行的。当你发现你需要一些组件以外的东西，例如抽屉里的下拉菜单，你可能需要编写自己的逐渐。
+
+## 接下来呢？
+
+下一步将会介绍组件，包括MDL类及其效果
+
+## 许可证
+
+Apache2
+
 
 
