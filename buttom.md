@@ -256,7 +256,7 @@
 
 小型FAB按钮
 
-```
+```html
 
 <!-- Mini FAB button -->
 
@@ -270,7 +270,7 @@
 
 彩色小型FAB按钮
 
-```
+```html
 
 <!-- Colored mini FAB button -->
 
