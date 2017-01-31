@@ -5,281 +5,243 @@
 彩色FAB 按钮
 
 ```html
-
 <!-- Colored FAB button -->
 
-<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+  <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
 
-<i class="material-icons">add</i>
+  <i class="material-icons">add</i>
 
-</button>
-
+  </button>
 ```
 
 有涟漪特效的FAB按钮
 
 ```html
-
 <!-- Colored FAB button with ripple -->
 
-<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+  <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
 
-<i class="material-icons">add</i>
+  <i class="material-icons">add</i>
 
-</button>
-
+  </button>
 ```
 
 普通的白色FAB按钮
 
 ```html
-
 <!-- FAB button -->
 
-<button class="mdl-button mdl-js-button mdl-button--fab">
+  <button class="mdl-button mdl-js-button mdl-button--fab">
 
- <i class="material-icons">add</i>
+   <i class="material-icons">add</i>
 
-</button>
-
+  </button>
 ```
 
 包含涟漪特效
 
 ```html
-
 <!-- FAB button with ripple -->
 
-<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+  <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
 
- <i class="material-icons">add</i>
+   <i class="material-icons">add</i>
 
-</button>
-
+  </button>
 ```
 
 禁止按下
 
 ```html
-
 <!-- Disabled FAB button -->
 
-<button class="mdl-button mdl-js-button mdl-button--fab" disabled>
+  <button class="mdl-button mdl-js-button mdl-button--fab" disabled>
 
- <i class="material-icons">add</i>
+   <i class="material-icons">add</i>
 
-</button>
-
+  </button>
 ```
 
 悬浮按钮
 
 ```html
-
 <!-- Raised button -->
 
-<button class="mdl-button mdl-js-button mdl-button--raised">
+  <button class="mdl-button mdl-js-button mdl-button--raised">
 
- Buttonj
+   Buttonj
 
-</button>
-
+  </button>
 ```
 
 包含涟漪特效的悬浮按钮
 
 ```html
 
-<!-- Raised button with ripple -->
+  <!-- Raised button with ripple -->
 
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
 
- Button
+   Button
 
-</button>
+  </button>
 
 ```
 
 禁止按下
 
 ```html
-
 <!-- Raised disabled button -->
 
-<button class="mdl-button mdl-js-button mdl-button--raised" disabled>
+  <button class="mdl-button mdl-js-button mdl-button--raised" disabled>
 
- Button
+   Button
 
-</button>
-
+  </button>
 ```
 
 彩色悬浮按钮
 
 ```html
-
 <!-- Colored raised button -->
 
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
 
- Button
+   Button
 
-</button>
-
+  </button>
 ```
 
 使用强调色
 
 ```html
-
 <!-- Accent-colored raised button -->
 
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
 
- Button
+   Button
 
-</button>
-
+  </button>
 ```
 
 包含涟漪特效
 
 ```html
-
 <!-- Accent-colored raised button with ripple -->
 
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
 
- Button
+   Button
 
-</button>
-
+  </button>
 ```
 
 扁平按钮
 
 ```html
-
 <!-- Flat button -->
 
-<button class="mdl-button mdl-js-button">
+  <button class="mdl-button mdl-js-button">
 
- Button
+   Button
 
-</button>
-
+  </button>
 ```
 
 包含涟漪特效
 
 ```html
-
 <!-- Flat button with ripple -->
 
-<button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+  <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
 
- Button
+   Button
 
-</button>
-
+  </button>
 ```
 
 禁止按下
 
 ```html
-
 <!-- Disabled flat button -->
 
-<button class="mdl-button mdl-js-button" disabled>
+  <button class="mdl-button mdl-js-button" disabled>
 
- Button
+   Button
 
-</button>
-
+  </button>
 ```
 
 主要色彩色扁平按钮
 
 ```html
-
 <!-- Primary-colored flat button -->
 
-<button class="mdl-button mdl-js-button mdl-button--primary">
+  <button class="mdl-button mdl-js-button mdl-button--primary">
 
- Button
+   Button
 
-</button>
-
+  </button>
 ```
 
 强调色彩色扁平按钮
 
 ```html
-
 <!-- Accent-colored flat button -->
 
-<button class="mdl-button mdl-js-button mdl-button--accent">
+  <button class="mdl-button mdl-js-button mdl-button--accent">
 
- Button
+   Button
 
-</button>
-
+  </button>
 ```
 
 图标按钮
 
 ```html
-
 <!-- Icon button -->
 
-<button class="mdl-button mdl-js-button mdl-button--icon">
+  <button class="mdl-button mdl-js-button mdl-button--icon">
 
- <i class="material-icons">mood</i>
+   <i class="material-icons">mood</i>
 
-</button>
-
+  </button>
 ```
 
 彩色图标按钮
 
-```
-
+```html
 <!-- Colored icon button -->
 
-<button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+  <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
 
- <i class="material-icons">mood</i>
+   <i class="material-icons">mood</i>
 
-</button>
-
+  </button>
 ```
 
 小型FAB按钮
 
 ```html
-
 <!-- Mini FAB button -->
 
-<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab">
+  <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab">
 
- <i class="material-icons">add</i>
+   <i class="material-icons">add</i>
 
-</button>
-
+  </button>
 ```
 
 彩色小型FAB按钮
 
 ```html
+   <!-- Colored mini FAB button -->
 
-<!-- Colored mini FAB button -->
+   <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
 
-<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+    <i class="material-icons">add</i>
 
- <i class="material-icons">add</i>
-
-</button>
-
+   </button>
 ```
 
 ## 介绍
@@ -294,13 +256,13 @@ Material Design Lite中的按钮是对标准HTML中```<buttom>```元素的增强
 
 1. 一个```<bottom>```元素，应当包含任何所需要的属性和值，例如id和事件处理程序，并根据西药添加文字说明或图片
 
-```
-   <button>Save</button>
+```html
+<button>Save</button>
 ```
 
 2. 添加一个或多个MDL类，在```<bottom>```标签中使用空格隔开，以使用该按钮的```class```属性
 
-```
+```html
 <button class="mdl-button mdl-js-button mdl-button--raised">Save</button>
 ```
 
