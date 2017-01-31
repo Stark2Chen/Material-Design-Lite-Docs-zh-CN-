@@ -284,6 +284,24 @@
 
 ## 介绍
 
-Material Design Lite中的按钮是对标准HTML中```<buttom>```元素的增强。按钮包括文本和图像。他能够清楚的告诉用户点击或是触摸他时将会发生什么动作。MDL
+Material Design Lite中的按钮是对标准HTML中```<buttom>```元素的增强。按钮包括文本和图像。他能够清楚的告诉用户点击或是触摸他时将会发生什么动作。MDL按钮组件提供了很多按钮的类型，并且允许你自行添加显示和点击的效果。
+
+无论网站的内容和功能如何，按钮在大多数用户界面都会存在。因此，按钮的设计和使用将会对整体用户体验产生重要的影响。这一点在材料[设计标准页面](http://www.google.com/design/spec/components/buttons.html)中有所涉及
+
+可以使用的按钮显示类型分为平，突起，FAB（Google翻译为晶圆厂），小型FAB和图标。他们可以使用默认颜色（浅灰色），也可以着色。可以通过代码实现禁止点击的效果。FAB按钮和图标按钮通常使用图标而不是文字作为标题。
+
+需要包括MDL的组件
+
+1. 一个```<bottom>```元素，应当包含任何所需要的属性和值，例如id和事件处理程序，并根据西药添加文字说明或图片
+
+   ```html
+   <button>Save</button>
+   ```
+
+2. 添加一个或多个MDL类，在```<bottom>```标签中使用空格隔开，以使用该按钮的```class```属性
+
+   ```html
+   <button class="mdl-button mdl-js-button mdl-button--raised">Save</button>
+   ```
 
 
