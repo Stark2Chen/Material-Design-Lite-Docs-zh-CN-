@@ -1,6 +1,6 @@
 # 按钮
 
-## 材料设计中按钮的
+## 材料设计中的按钮
 
 彩色FAB 按钮
 
@@ -294,14 +294,49 @@ Material Design Lite中的按钮是对标准HTML中```<buttom>```元素的增强
 
 1. 一个```<bottom>```元素，应当包含任何所需要的属性和值，例如id和事件处理程序，并根据西药添加文字说明或图片
 
-   ```html
+```
    <button>Save</button>
-   ```
+```
 
 2. 添加一个或多个MDL类，在```<bottom>```标签中使用空格隔开，以使用该按钮的```class```属性
 
-   ```html
-   <button class="mdl-button mdl-js-button mdl-button--raised">Save</button>
-   ```
+```
+<button class="mdl-button mdl-js-button mdl-button--raised">Save</button>
+```
 
+按钮组件已经就绪
+
+### 例子
+
+具有"凸起"效果的按钮。
+
+```
+<button class="mdl-button mdl-js-button mdl-button--raised">Save</button>
+```
+
+FAB按钮
+```
+<button class="mdl-button mdl-js-button mdl-button--fab">OK</button>
+```
+
+具有图标和彩色效果的按钮
+```
+<button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">?</button>
+```
+
+配置选项
+
+|            MDL类             | 影响                           | 备注                            |
+| :-------------------------: | :--------------------------- | :---------------------------- |
+|      ```mdl-buttom```       | 将按钮定义为MDL按钮                  | 需要                            |
+|     ```mdl-js-buttom```     | 将基本MDL行为分配给按钮                | 需要                            |
+|           （none）            | 应用扁平按钮效果                     | 默认                            |
+|  ```mdl-button--raised```   | 应用浮雕效果的按钮                    | 与FAB按钮，小型FAB按钮和图标按钮互斥         |
+|    ```mdl-button--fab```    | 应用FAB按钮的显示效果                 | 与浮雕按钮，小型FAB按钮和图标按钮互斥          |
+| ```mdl-button--mini-fab```  | 应用小型FAB按钮的显示效果               | 与浮雕按钮，FAB按钮和图标按钮互斥            |
+|   ```mdl-button--icon```    | 应用图标的显示效果                    |                               |
+| ```mdl-button--colored	```  | 应用彩色显示效果 （主要或辅助的颜色，取决于按钮的类型） | 颜色在中定义 `material.min.css`     |
+|  ```mdl-button--primary```  | 应用主色的显示效果                    | 颜色在中定义 ```material.min.css``` |
+|  ```mdl-button--accent```   | 应用辅助色的显示效果                   | 颜色在中定义 ```material.min.css``` |
+| ``` mdl-js-ripple-effect``` | 应用涟漪特效                       |                               |
 
